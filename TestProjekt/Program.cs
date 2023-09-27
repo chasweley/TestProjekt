@@ -30,11 +30,11 @@
             Console.WriteLine("Hej World!");
             Console.WriteLine("Vad heter du?");
             string nameString = Console.ReadLine();
-            if (nameString = "Charlotte" || "Hjalmar" || "Huan") 
+            if (nameString == "Charlotte" || nameString == "Hjalmar" || nameString == "Huan") 
             {
                 Console.WriteLine("Hej {0}", nameString);
             }
-            Console.WriteLine("hmm")
+            Console.WriteLine("hmm");
         }
     }
 }
