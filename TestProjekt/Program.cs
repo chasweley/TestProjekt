@@ -13,7 +13,7 @@
             }
             else
             {
-                Console.WriteLine("Bra gjort.");
+                Console.WriteLine("Bra gjort!");
             }
             
             Console.WriteLine("What's your favorite food? ");
