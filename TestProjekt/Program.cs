@@ -15,9 +15,11 @@
             {
                 Console.WriteLine("Bra gjort.");
             }
+            
             Console.WriteLine("What's your favorite food? ");
             string answer = Console.ReadLine();
             answer = answer.ToLower();
+            
             if (answer == "lasagna")
             {
                 Console.WriteLine("Yummy!");
@@ -30,6 +32,7 @@
             Console.WriteLine("Hej World!");
             Console.WriteLine("Vad heter du?");
             string nameString = Console.ReadLine();
+            
             if (nameString == "Charlotte" || nameString == "Hjalmar" || nameString == "Huan") 
             {
                 Console.WriteLine("Hej {0}", nameString);
