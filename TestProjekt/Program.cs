@@ -15,6 +15,18 @@
             {
                 Console.WriteLine("Bra gjort.");
             }
+            Console.WriteLine("What's your favorite food? ");
+            string answer = Console.ReadLine();
+            answer = answer.ToLower();
+            if (answer == "lasagna")
+            {
+                Console.WriteLine("Yummy!");
+            }
+            else
+            {
+                Console.WriteLine("Disgusting!");
+            }
+            
             Console.WriteLine("Hej World!");
             Console.WriteLine("Vad heter du?");
             string nameString = Console.ReadLine();
